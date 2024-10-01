@@ -187,7 +187,7 @@ ALTER TABLE 테이블명 ADD FULLTEXT INDEX 인덱스명(content) WITH PARSER ng
 
 이처럼 불용어를 제거하면 인덱스 크기가 줄어들기 때문에 검색 성능이 향상될 수 있다.
 
-![image](https://github.com/user-attachments/assets/40dae7ae-1f2e-4958-85ef-4a994eca43b5)
+<img src = https://github.com/user-attachments/assets/40dae7ae-1f2e-4958-85ef-4a994eca43b5 width= 50%>
 
 ### 3. 어간 추출(Stemming)
 MySQL의 Full Text 검색은 기본적으로 정확한 단어 매칭을 수행하지만, 설정에 따라 어간 추출을 활용할 수도 있다. 그중에서도 어간 추출은 단어의 어미를 제거하여 기본 형태(어간)로 변환하는 과정을 말한다.
@@ -205,7 +205,7 @@ Full Text Index의 핵심 구조이다. 쉽게 말하면 문서가 토큰에 대
   - 구조: 단어(토큰) -> 해당 단어를 포함하는 문서 ID 목록
   - 검색 과정: 검색어에 해당하는 단어의 문서 목록을 직접 조회
 
-![image](https://github.com/user-attachments/assets/cbe48a88-c24b-4d58-ba24-89182115b904)
+<img src = https://github.com/user-attachments/assets/cbe48a88-c24b-4d58-ba24-89182115b904 width= 50%>
 
 가장 많은 문서를 가지고 있는 단어 상위 10개를 조회해본 모습이다.
 
